@@ -1,0 +1,69 @@
+            <!--   <div class="container-fluid">
+                <div class="row">
+                    <header class="main_header col-md-12">
+                        <nav class="navbar navbar-expand-lg ">
+                          <a class="navbar-brand" href="/"><img src="../images/logo.jpg" alt="" class="logo"></a>
+                          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                 <i class="fas fa-bars" style="font-size:30px;color:white;"></i>
+                      </button>
+
+              <% if(username!='Not Set'){ %>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto" style="margin-top:40px;">
+                  <li class="nav-item">
+                 <a class="nav-link" href="/">Home</a>
+                 </li>
+                 <li class="nav-item">
+                 <a class="nav-link" href="/program/guru_dakshina">Guru Dakshina Courses</a>
+                 </li>
+                 <li class="nav-item">
+                               <a class="nav-link" href="/mcq">Daily MCq's</a>
+                               </li>
+
+                   <li class="nav-item" >
+              <div class="dropdown" style="margin-right:50px;float:right;">
+                   <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <%= username %>
+                   </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="float:right;margin-right:40px;">
+                    <a class="dropdown-item" href="/user/profile">Profile</a>
+                    <a class="dropdown-item" href="/user_logout">Log Out</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+         </div>
+
+              <%  }else{   %>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto" style="margin-top:40px;">
+                   <li class="nav-item" >
+                     <div class="search-form">
+                      <form>
+                        <div class="search_form_inner">
+                          <input type="text" name="" placeholder="Search For Your Course Here...">
+                          <button type="submit"><i class="fa fa-search"></i></button>
+                        </div>
+                      </form>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                 <a class="nav-link" href="/">Home</a>
+                 </li>
+                 <li class="nav-item">
+                 <a class="nav-link" href="/program/guru_dakshina">Guru Dakshina Courses</a>
+                 </li>
+                 <li class="nav-item">
+                               <a class="nav-link" href="/mcq">Daily MCq's</a>
+                               </li>
+                   <li class="nav-item">
+                  <a class="nav-link" href="/userLogin">Login</a>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-link" href="/userSignup">Sign Up</a>
+                  </li>
+                 </ul>
+                </div>
+                <% } %>
+                      </nav>
+                    </header>-->

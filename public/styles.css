@@ -1,0 +1,14 @@
+
+p{
+    font-family: 'Quicksand', "sans-serif";
+}
+a{
+    font-size: 20px;
+    font-weight: bold;
+}
+h1, h2, h3, h4{
+    font-family: 'Livvic', sans-serif;
+}
+.footer{
+    background-image: linear-gradient(to bottom, #FFFEFF 0%, #D7FFFE 100%);
+}
